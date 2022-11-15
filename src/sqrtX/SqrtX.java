@@ -1,6 +1,7 @@
 package sqrtX;
 
 import static sqrtX.BinarySearch.binarySearch;
+import static sqrtX.NewTon.newton;
 
 /**
  * @author Breethy
@@ -8,5 +9,6 @@ import static sqrtX.BinarySearch.binarySearch;
 public class SqrtX {
     public static void main(String[] args) {
         System.out.println(binarySearch(25));
+        System.out.println(newton(25));
     }
 }
